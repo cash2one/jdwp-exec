@@ -10,8 +10,8 @@ This exploitation script is meant to be used by pentesters against active JDWP s
 Well, in a pretty standard way, the script only requires a Python 2 interpreter:
 
 	% python jdwp.py -h
-	usage: jdwp.py [-h] -t IP [-p PORT] [--break-on JAVA_METHOD]
-                          [--cmd COMMAND]
+	usage: jdwp.py [-h] -t IP [-p PORT] [--cmd COMMAND]
+	
 
     Universal exploitation script for JDWP by 老夫开车怕过谁
     optional arguments:
